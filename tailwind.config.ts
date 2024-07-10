@@ -7,6 +7,8 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    //This will overwrite all basic tailwind colors.
+    //todo: Add all the colors I want to use for the project here.
     colors: {
       navy: {
         100: "#233554",
@@ -14,6 +16,7 @@ const config: Config = {
         300: "#0a192f",
         400: "#020c1b",
       },
+      white: "white",
     },
     extend: {
       backgroundImage: {
