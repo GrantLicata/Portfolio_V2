@@ -1,6 +1,6 @@
 const Title = () => {
   return (
-    <div className="pl-10 max-w-[600px]">
+    <div className="pl-10 max-w-[600px] h-screen">
       <div className="text-white pb-6">
         <h3 className="pb-4">Hi, my name is</h3>
         <h1 className="text-3xl">Grant Licata.</h1>
