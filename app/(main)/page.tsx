@@ -1,10 +1,10 @@
-import Title from "@/components/Title";
+import Introduction from "@/components/Introduction";
 
 export default function MainPage() {
   return (
     <div className="min-h-full flex flex-col">
       <div>
-        <Title />
+        <Introduction />
       </div>
     </div>
   );
