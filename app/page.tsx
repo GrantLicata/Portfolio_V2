@@ -7,6 +7,7 @@ export default function MainPage() {
       <div>
         <Introduction />
         <About />
+        {/* Testing github commit */}
       </div>
     </div>
   );
